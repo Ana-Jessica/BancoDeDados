@@ -6,7 +6,7 @@
 	  <meta charset="utf-8">
 	</head>
 	<body><?php //exclusao.php
-// efetua a exclusão do curso cujo id seja informado.
+// efetua a exclusão do curso deve informar ID .
   $id = $_GET["id"];
   
   include_once "../inc/conectabd.inc.php";
@@ -16,7 +16,7 @@
 	  echo "Exclusão efetuada com sucesso";
   }
   
-  // fecha a conexão
+  // encerra a conexão
   mysqli_close($link);
   
  ?>  
